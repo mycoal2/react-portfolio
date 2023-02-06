@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+
+.logo{
+  display:inline-block;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color:blue;
+  align-items: center;
+}
+.nav {
+  
+}
+flex {
+  display:flex;
+}
+ul {
+  padding: 5px;
+  list-style: none;
+  display:flex;
+  justify-content: space-between;
+  background-color: grey;
+}
+li {
+  display:inline-block;
+  padding: 5px;
+}
+.flex-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+}
+.flex-nav:hover {
+  background-color: rgb(52, 52, 52);
+}
+
