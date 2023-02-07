@@ -13,6 +13,10 @@
   }
 }
 
+body {
+  margin-top:-16px;
+  padding: 0;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -51,29 +55,67 @@
   align-items: center;
 }
 .nav {
-  
+
 }
-flex {
+.navflex {
   display:flex;
 }
 ul {
-  padding: 5px;
-  list-style: none;
+  /* list-style: none; */
   display:flex;
   justify-content: space-between;
+  /* background-color: grey; */
+}
+.nav_list {
   background-color: grey;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  margin-left: -32px;
+  padding-right:10px;
 }
 li {
   display:inline-block;
   padding: 5px;
+}
+.navflex {
+  padding: 0px;
 }
 .flex-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color:white;
+  padding: 5px;
 }
 .flex-nav:hover {
   background-color: rgb(52, 52, 52);
 }
+label {
+  padding:110px;
+}
+input {
+  padding:2px;
+  margin-left:45px;
+  margin-right:5px;
+}
+.add-button {
+  margin-left: 10px;
+}
 
+.MangaList {
+  display: block;
+}
+.list-manga {
+  /* display: flex-inline; */
+  justify-content: space-between;
+}
+.list-title {
+  /* display:flex; */
+  justify-content: space-between;
+  align-items:center;
+}
+.list-score {
+  /* display:flex; */
+  justify-content: space-between;
+  align-items:center;
+}
